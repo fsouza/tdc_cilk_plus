@@ -7,4 +7,4 @@ do [TDC 2013](http://www.thedevelopersconference.com.br/#saopaulo).
 
 #Slides
 
-<pendente>
+pendente
