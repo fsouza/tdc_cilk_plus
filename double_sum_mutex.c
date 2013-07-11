@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <threads.h>
 #include <cilk/cilk.h>
-#include <cilk/reducer_opadd.h>
 
 #define N 50000
 
