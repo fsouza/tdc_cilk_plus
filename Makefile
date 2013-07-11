@@ -5,7 +5,7 @@
 .SUFFIXES: .f90
 
 .f90:
-	ifort -o $@ $<
+	ifort -e95 -o $@ $<
 
 .f:
 	ifort -o $@ $<
