@@ -3,3 +3,4 @@
 # license that can be found in the LICENSE file.
 
 CC=icc
+CXX=icc
