@@ -7,6 +7,9 @@
 .f90:
 	ifort -o $@ $<
 
+.f:
+	ifort -o $@ $<
+
 .c:
 	icc -o $@ $<
 
