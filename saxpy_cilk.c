@@ -3,6 +3,7 @@
 // license that can be found in the LICENSE file.
 
 #include <stdio.h>
+#include "dump.h"
 
 void
 saxpy(float *x, float *y, float a, int n)
@@ -19,9 +20,6 @@ main(void)
 	y[:] = 20;
 	a = 10;
 	saxpy(x, y, a, 10);
-	for(i = 0; i < 10; ++i) {
-		printf("%f ", y[i]);
-	}
-	printf("\n");
+	dump(y, 10, "%f ");
 	return 0;
 }
