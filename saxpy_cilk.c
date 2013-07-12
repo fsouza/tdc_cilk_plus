@@ -14,7 +14,6 @@ saxpy(float *x, float *y, float a, int n)
 int
 main(void)
 {
-	int i;
 	float a, x[10], y[10];
 	x[:] = 300;
 	y[:] = 20;
